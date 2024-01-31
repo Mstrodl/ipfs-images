@@ -1,6 +1,6 @@
 FROM docker.io/alpine
 
-RUN apk add --no-cache jq moreutils
+RUN apk add --no-cache jq moreutils curl
 
 COPY entrypoint.sh /entrypoint.sh 
 
